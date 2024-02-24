@@ -1,11 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
+Name : JEFFY BRAILIN T
+Roll no : 212223040076
+Date of experiment : 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -78,22 +74,55 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
+```
+org 100h
+mov ax,26h;
+mov bx,09h;
+add ax,bx;
+mov [2609h],ax;
+ret
+```
 
 ## Output  
+![add 1st](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/b00d9969-c0d0-467e-83cf-7120614449f9)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
 
+```
+org 100h
+mov ax,26h;
+mov bx,09h;
+sub ax,bx;
+mov [2609h],ax;
+ret
+```
+## Output  
+![sub 2nd](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/ecefae9a-eee0-46f0-ac6c-f785385d0b39)
+
+## Multiplication alp 
+```
+org 100h
+mov ax,26h;
+mov bx,09h;
+mul bx;
+mov [2609h],ax;
+ret
+```
+ ## Output  
+![mul 3rd](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/ce186be2-d352-491b-a5d5-31343afa1609)
 
 ## Division alp 
-
+```
+org 100h
+mov ax,26h;
+mov bx,09h;
+div bx;
+mov [2609h],ax;
+ret
+```
 ## Output  
-
+![div 4th](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/5674ddfd-9ed1-49d2-acfd-b87b4c890311)
 
 ## Result :
  
