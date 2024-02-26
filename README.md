@@ -125,7 +125,7 @@ ret
 ![div 4th](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/5674ddfd-9ed1-49d2-acfd-b87b4c890311)
 
 ## Result :
- 
+ Thus, to write and execute ALP on fundamental arithmetic operations is successful.
 
 
 
