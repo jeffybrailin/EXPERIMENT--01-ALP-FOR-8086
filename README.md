@@ -1,6 +1,6 @@
-# EXPERIMENT--01-ALP-FOR-8086
 ### Name : JEFFY BRAILIN T
 ### Roll no : 212223040076
+# EXPERIMENT 01 ALP FOR 8086
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
@@ -121,6 +121,41 @@ ret
 ```
 ## Output  
 ![div 4th](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/5674ddfd-9ed1-49d2-acfd-b87b4c890311)
+## Programs for logical operations
+## AND
+org 100h
+mov AL,66h;
+mov BL,70h;
+AND AL,BL;
+HLT
+ret
+## Output
+![image](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/407b6d2f-c9b1-4d05-97d2-ed058777ddeb)
+## OR
+org 100h
+mov AL,66h;
+mov BL,70h;
+OR AL,BL;
+HLT
+ret
+## Output
+![image](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/4b573237-c7ff-484c-804f-ca3daafb395b)
+## NOT
+org 100h
+mov AL,66h;
+NOT AL;
+HLT;
+ret
+## Output
+## XOR
+org 100h
+mov AL,66h;
+mov BL,70h;
+XOR AL,BL;
+HLT
+ret
+## Output
+![image](https://github.com/jeffybrailin/EXPERIMENT--01-ALP-FOR-8086/assets/146911326/333997b9-12df-49e2-b7b4-7a2b0cad3790)
 
 ## Result :
  Thus, to write and execute ALP on fundamental arithmetic operations is successful.
